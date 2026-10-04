@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "349263052826",
+    "project_id": "metup-b49de",
+    "storage_bucket": "metup-b49de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349263052826:android:aa7f5234e96a4d913411a3",
+        "android_client_info": {
+          "package_name": "com.example.metup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLD7j21eFMsAQT0HSRy_2szllkqfjt-1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

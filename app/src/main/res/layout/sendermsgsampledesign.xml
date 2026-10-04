@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="10sp"
+        android:background="@color/lightPeacockBlue"
+        android:layout_margin="10sp"
+        android:elevation="3sp">
+        <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxWidth="250sp"
+            android:minWidth="100dp"
+            android:textColor="@color/black"
+    android:text="Hello Everyone!"
+    android:id="@+id/txt_sendermsg"
+    android:layout_alignParentTop="true">
+</TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5:30 PM"
+        android:textSize="11sp"
+        android:id="@+id/txt_sendermsgtime"
+        android:layout_alignRight="@+id/txt_sendermsg"
+        android:layout_below="@+id/txt_sendermsg"
+        android:textColor="@color/lightBlack">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20/09/2024"
+        android:textSize="11sp"
+        android:id="@+id/txt_sendermsgdate"
+        android:layout_alignRight="@+id/txt_sendermsg"
+        android:layout_below="@+id/txt_sendermsgtime"
+        android:textColor="@color/lightBlack">
+    </TextView>
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15sp">
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="50sp"
+    android:layout_height="50sp"
+    app:civ_border_color="@color/black"
+    android:src="@drawable/baseline_person_24blue"
+    android:id="@+id/icon"
+    app:civ_border_width="2sp">
+</de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"
+        android:textSize="14sp"
+        android:id="@+id/text"
+        android:layout_toRightOf="@+id/icon">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="10sp"
+        android:textColor="@color/gray"
+        android:id="@+id/info"
+        android:text="Do not disturb">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/msgdate"
+        android:text="21-09-2024"
+        android:textColor="@color/gray"
+        android:textSize="11sp"
+        android:layout_marginTop="5sp"
+        android:layout_alignParentEnd="true">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="5:30PM"
+        android:textColor="@color/gray"
+        android:textSize="11sp"
+        android:id="@+id/msgtime"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/msgdate"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</RelativeLayout>
